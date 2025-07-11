@@ -3,7 +3,6 @@ import { Navbar } from "../components/Navbar";
 import { HeroSection } from "../components/HeroSection";
 import { AboutSection } from "../components/AboutSection";
 import { BackgroundBeams } from "../components/ui/BackgroundBeams";
-import { TracingBeam } from "../components/ui/TracingBeam";
 
 export const Home = () => {
   return (
@@ -18,12 +17,11 @@ export const Home = () => {
       {/* {Navbar} */}
       <Navbar />
       {/* {Main Content} */}
-      <TracingBeam>
-        <main>
-          <HeroSection />
-          <AboutSection />
-        </main>
-      </TracingBeam>
+      <main>
+        <HeroSection />
+        <AboutSection />
+      </main>
+
       {/* {Footer} */}
     </div>
   );
