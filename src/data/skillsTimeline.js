@@ -40,9 +40,7 @@ export const skillsTimeline = [
       },
       {
         label: "Express.js",
-        // Alternative logo with light background to improve dark mode visibility
-        logoUrl:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+        logoUrl: "icons/express.png",
       },
       {
         label: "Java",
