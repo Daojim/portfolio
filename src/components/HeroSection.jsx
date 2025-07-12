@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import SplitText from "./ui/SplitText";
 
 export const HeroSection = () => {
   return (
@@ -8,18 +9,26 @@ export const HeroSection = () => {
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in">Hi, I'm</span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Jimmy
-            </span>
-            <span className="text-gradient opacity-0 animate-fade-in-delay-2">
-              {" "}
-              Dao
-            </span>
-          </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+          <SplitText
+            text={`Hi, I'm Jimmy Dao`}
+            splitType="chars"
+            delay={50}
+            duration={2}
+            ease="elastic.out"
+            className="text-4xl md:text-6xl font-bold tracking-tight text-center"
+            charColorMap={{
+              6: "text-primary",
+              7: "text-primary",
+              8: "text-primary",
+              9: "text-primary",
+              10: "text-primary",
+              11: "text-gradient",
+              12: "text-gradient",
+              13: "text-gradient",
+            }}
+          />
+
+          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
             I’m an aspiring software developer dedicated to learning new tools
             and techniques to solve real problems. My goal is to build reliable,
             thoughtful software while continuously growing as a developer.
