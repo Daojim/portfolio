@@ -5,6 +5,7 @@ import { BackgroundBeams } from "../components/ui/BackgroundBeams";
 import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
@@ -25,6 +26,7 @@ export const Home = () => {
       </main>
 
       {/* {Footer} */}
+      <Footer />
     </div>
   );
 };
