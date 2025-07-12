@@ -11,7 +11,10 @@ export const SkillsSection = () => {
 
         <div className="relative border-l-2 border-primary/50 pl-6">
           {skillsTimeline.map((item, index) => (
-            <div key={index} className="mb-12 relative">
+            <div
+              key={index}
+              className="mb-12 relative bg-background/60 backdrop-blur-md border border-border rounded-xl shadow-md hover:shadow-lg hover:border-primary/80 transition-all duration-300 p-6"
+            >
               <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-primary"></div>
 
               <h3 className="text-xl font-semibold mb-1">{item.timeframe}</h3>
