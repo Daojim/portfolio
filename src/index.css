@@ -79,7 +79,10 @@
     --background: 222 47% 4%;
     --foreground: 213 31% 91%;
 
-    --card: 222 47% 8%;
+    /*original
+     --card: 222 47% 8%; */
+
+    --card: 34 100% 22.2%;
 
     --primary: 4 95% 45%;
     --primary-foreground: 213 31% 91%;

@@ -119,6 +119,16 @@ export const skillsTimeline = [
         label: "Visual Paradigm",
         logoUrl: "/icons/visualparadigm.png",
       },
+      {
+        label: "Git",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      },
+      {
+        label: "GitHub",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      },
     ],
   },
 ];
