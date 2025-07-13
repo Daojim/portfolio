@@ -1,12 +1,92 @@
-# React + Vite
+# Jimmy Dao’s Portfolio 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**🎯 Purpose**  
+Showcases my skills, projects, and contact info in a clean, interactive, and visually appealing format—serving as both my resume and personal brand statement.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Table of Contents
 
-## Expanding the ESLint configuration
+- [Demo](#demo)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation & Local Development](#installation--local-development)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contact](#contact)
+- [License](#license)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demo
+
+Explore the live site here: **[https://jimmydao-portfolio.vercel.app](https://jimmydao-portfolio.vercel.app)**
+
+---
+
+## Features
+
+- **Projects Showcase**: Clean snapshots, descriptions, and links to GitHub.
+- **Responsive Design**: Mobile‑first layout powered by React and Tailwind CSS.
+- **Interactive Navigation**: Animated header and smooth scrolling.
+- **Contact Integration**: Simple contact form or links to email / LinkedIn.
+
+---
+
+## Tech Stack
+
+- 🛠️ **Framework:** React
+- 🎨 **Styling:** Tailwind CSS
+- 💼 **Hosting:** Vercel
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+- Node.js (v14+)
+- npm or yarn
+
+### Installation & Local Development
+
+```bash
+git clone https://github.com/Daojim/portfolio.git
+cd portfolio
+npm install      # or yarn
+npm run dev      # local development at http://localhost:3000
+```
+
+## Usage
+
+- Browse the homepage to explore my projects.
+- Navigate sections via menu or links.
+- Contact me using the button/form at the bottom.
+
+_For contributions or feature suggestions, open an issue or PR._
+
+---
+
+## Screenshots
+
+![Screenshot 1](public/screenshots/screenshot1.png)
+![Screenshot 2](public/screenshots/screenshot2.png)
+
+---
+
+## Contact
+
+- **Email:** daojim.dev@gmail.com
+- **LinkedIn:** [linkedin.com/in/daojim](https://linkedin.com/in/daojim)
+- **GitHub:** [@Daojim](https://github.com/Daojim)
+
+---
+
+## License
+
+This project is licensed under the MIT License.  
+[View the full license here](LICENSE).
