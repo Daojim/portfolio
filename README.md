@@ -31,7 +31,7 @@ Explore the live site here: **[https://jimmydao-portfolio.vercel.app](https://ji
 - **Projects Showcase**: Clean snapshots, descriptions, and links to GitHub.
 - **Responsive Design**: Mobile‑first layout powered by React and Tailwind CSS.
 - **Interactive Navigation**: Animated header and smooth scrolling.
-- **Contact Integration**: Simple contact form or links to email / LinkedIn.
+- **Contact Integration**: Simple contact links to email / LinkedIn.
 
 ---
 
@@ -58,14 +58,14 @@ Make sure you have:
 git clone https://github.com/Daojim/portfolio.git
 cd portfolio
 npm install      # or yarn
-npm run dev      # local development at http://localhost:3000
+npm run dev      # local development at http://localhost:5173
 ```
 
 ## Usage
 
 - Browse the homepage to explore my projects.
 - Navigate sections via menu or links.
-- Contact me using the button/form at the bottom.
+- Contact me using the links at the bottom.
 
 _For contributions or feature suggestions, open an issue or PR._
 
