@@ -84,9 +84,3 @@ _For contributions or feature suggestions, open an issue or PR._
 - **LinkedIn:** [linkedin.com/in/daojim](https://linkedin.com/in/daojim)
 - **GitHub:** [@Daojim](https://github.com/Daojim)
 
----
-
-## License
-
-This project is licensed under the MIT License.  
-[View the full license here](LICENSE).
