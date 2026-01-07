@@ -3,6 +3,16 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "LAN Beam",
+    description:
+      "Simple Windows app for seamless file sharing between devices on the same Wi-Fi network. Direct transfers, no cloud storage needed.",
+    image: "projects/lanbeam.png",
+    tags: ["Flutter", "Dart"],
+    demoUrl: "https://github.com/Daojim/lan_beam/releases/",
+    githubURL: "https://github.com/Daojim/lan_beam",
+  },
+  {
+    id: 2,
     title: "Pokédex",
     description:
       "A full-stack Pokédex built with Flask, HTML/CSS, and Jinja2, using the PokéAPI for data.",
@@ -13,7 +23,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "To-do List",
     description:
       "A streamlined To-do List app built to strengthen my skills with TypeScript, Tailwind CSS, and React.",
@@ -24,7 +34,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Pomodoro",
     description:
       "Developed to improve my React and JavaScript skills while implementing a classic Pomodoro timer for productivity.",
