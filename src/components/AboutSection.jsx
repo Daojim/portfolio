@@ -17,7 +17,7 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               I’m making the leap from a background in HVAC and Sales into
               Software Development, driven by a passion for learning and
-              creating. I’m seeking a Fall 2025 co-op or internship to gain
+              creating. I’m seeking a Summer 2026 co-op or internship to gain
               hands-on experience and grow as a software developer.
             </p>
             <p className="text-muted-foreground">
