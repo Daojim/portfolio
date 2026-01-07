@@ -11,8 +11,20 @@ const projects = [
     demoUrl: "https://github.com/Daojim/lan_beam/releases/",
     githubURL: "https://github.com/Daojim/lan_beam",
   },
+
   {
     id: 2,
+    title: "Taskoro",
+    description:
+      "A task management web app that uses natural language and synchronizes with Google Calendar. Made for the Kiro Hackathon.",
+    image: "projects/taskoro.png",
+    tags: ["Kiro", "React", "Express", "PostgreSQL"],
+    demoUrl: "https://devpost.com/software/taskiro",
+    githubURL: "https://github.com/Daojim/taskoro",
+  },
+
+  {
+    id: 3,
     title: "Pokédex",
     description:
       "A full-stack Pokédex built with Flask, HTML/CSS, and Jinja2, using the PokéAPI for data.",
@@ -23,7 +35,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "To-do List",
     description:
       "A streamlined To-do List app built to strengthen my skills with TypeScript, Tailwind CSS, and React.",
@@ -34,7 +46,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Pomodoro",
     description:
       "Developed to improve my React and JavaScript skills while implementing a classic Pomodoro timer for productivity.",
