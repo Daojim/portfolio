@@ -75,7 +75,7 @@ export const skillsTimeline = [
     ],
   },
   {
-    timeframe: "January 2025 – Present",
+    timeframe: "January 2025 – August 2025",
     title: "Deepening and Expanding My Skills",
     description:
       "Consolidating web development foundations while learning advanced backend frameworks, data science libraries, and modern frontend tools.",
@@ -128,6 +128,55 @@ export const skillsTimeline = [
         label: "GitHub",
         logoUrl:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      },
+    ],
+  },
+
+  {
+    timeframe: "September 2025 - Present",
+    title: "First internship and Ongoing Learning",
+    description:
+      "Applying my skills in a real-world setting during my internship while continuously learning new technologies and best practices.",
+    skills: [
+      {
+        label: "C#",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+      },
+      {
+        label: ".NET",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg",
+      },
+      {
+        label: "Ionic",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg",
+      },
+      {
+        label: "Cypress",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-plain.svg",
+      },
+      {
+        label: "C",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+      },
+      {
+        label: "Jira",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+      },
+      {
+        label: "Kotlin",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+      },
+      {
+        label: "Android Studio",
+        logoUrl:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg",
       },
     ],
   },
